@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <DashboardNavBar />
+  <div class="min-height-300 bg-primary position-absolute w-100">
     <DashboardSideNav />
     <main class="main-content position-relative border-radius-lg">
-      <Nuxt />
-      <DashboardFooter />
+      <DashboardNavBar />
+      <div class="container-fluid py-4">
+        <Nuxt />
+        <DashboardFooter />
+      </div>
     </main>
   </div>
 </template>
