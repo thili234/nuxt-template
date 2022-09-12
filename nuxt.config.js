@@ -53,6 +53,11 @@ export default {
       rel: "stylesheet",
       id: "pagestyle",
       href: "/assets/css/argon-dashboard.min.css"
+    },
+    {
+      rel: "stylesheet",
+
+      href: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     }
   ],
     script: [
@@ -67,50 +72,61 @@ export default {
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/core/popper.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/core/bootstrap.min.js",
         body: true,
       },
-      {
+      { type: "text/javascript",
         src: "/assets/js/plugins/perfect-scrollbar.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/smooth-scrollbar.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/choices.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/dragula/dragula.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/jkanban/jkanban.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/countup.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/chartjs.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src: "/assets/js/plugins/round-slider.min.js",
         body: true,
       },
       {
-        src: "/assets/js/argon-dashboard.min.js?v=2.0.5",
+        type: "text/javascript",
+        src: "/assets/js/argon-dashboard.min.js",
         body: true,
       },
       {
+        type: "text/javascript",
         src :"https://kit.fontawesome.com/42d5adcbca.js",
         crossorigin: "anonymous",
         body: true,

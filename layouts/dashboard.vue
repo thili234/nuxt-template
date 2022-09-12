@@ -1,8 +1,9 @@
 <template>
   <div>
+  <DashboardNavBar/>
       <DashboardSideNav/>
-      <main class="main-content position-relative border-radius-lg">
-        <DashboardNavBar/>
+       <main class="main-content position-relative border-radius-lg">
+
         <Nuxt/>
         <DashboardFooter/>
 
